@@ -1,6 +1,13 @@
 # listLinksFromWebPage.py
 This python 3 script will help printing zip file links and allow me to simply apply wget to download them
 
+# Install missing librairies
+
+I use pip as a package manager.
+```
+sudo pip install beautifulsoup4
+```
+
 # Modify variables : 
 
 I want to list zip files in href tags from that page : http://rpg.ifi.uzh.ch/uzh-fpv.html

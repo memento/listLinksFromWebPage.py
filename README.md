@@ -20,7 +20,7 @@ site_page = "/uzh-fpv.html"
 Then, I'll use again site_base to concatenate the base url to the zip file relative links my script found to obtain the list of absolute paths.
 
 # Usage : 
-In command line : 
+Use the start.sh script after chmodding is (chmod u+x start.sh) or directly type in command line : 
 ```
 wget $(python listLinksFromWebPage.py)
 ```
